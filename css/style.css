@@ -102,19 +102,23 @@ nav a:hover{
     grid-auto-rows: auto;
     grid-row-gap: 15px;
   }
-}
+
 /* Remainder of requirements here: */
 
-header{
-  background-attachment: fixed; /* Parallax effect */
-  background-position: center; /* Parallax effect */
-  background-size: cover; /* Parallax effect */
-  color: white;
-  height: 400px; /* Parallax effect */
+  header{
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center; /* Parallax effect */
+    background-size: cover; /* Parallax effect */
+    color: white;
+    height: 400px; /* Parallax effect */
 
-  /* YOUR CODE HERE; */
+    /* YOUR CODE HERE; */
+    column-span: all;
+    grid-row: 1 / span 1;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+  }
 }
-
 
 
 .about-image{
