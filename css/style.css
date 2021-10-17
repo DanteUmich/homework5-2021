@@ -63,6 +63,9 @@ nav a{
   /* Requirement 1 code here*/
 }
 
+nav a:hover{
+  text-decoration: underline
+}
   /* Requirement 2 code here*/
 
 
