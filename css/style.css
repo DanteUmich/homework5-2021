@@ -110,7 +110,7 @@ nav a:hover{
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   color: white;
-  height: 400px; /* Parallax effect */
+  height: 100%; /* Parallax effect */
 
    /* YOUR CODE HERE; */
   grid-column: 1 / span all;
