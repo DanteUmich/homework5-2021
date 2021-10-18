@@ -105,7 +105,7 @@ nav a:hover{
 
  /* Remainder of requirements here: */
 
-header>#main{
+#main{
   background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
