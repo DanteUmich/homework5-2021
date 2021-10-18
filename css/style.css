@@ -122,10 +122,10 @@ header{
 
 
 .about-image{
-  column-span: all;
+  grid-column: 1 / span all;
   max-height: 700px;
   overflow: hidden;
-  grid-row: 2 / span all
+  grid-row: 2 / span 1;
 }
 
 .about{
@@ -134,10 +134,10 @@ header{
 }
 
 .method-image{
-  column-span: all;
+  grid-column: 1 / span all;
   max-height: 700px;
   overflow: hidden;
-  grid-row: 3 / span all;
+  grid-row: 3 / span 1;
 }
 
 .method{
@@ -146,10 +146,10 @@ header{
 }
 
 .clients-image{
-  column-span: all;
+  grid-column: 1 / span all;
   max-height: 700px;
   overflow: hidden;
-  grid-row: 4 / span all;
+  grid-row: 4 / span 1;
 }
 
 .clients{
@@ -158,10 +158,10 @@ header{
 }
 
 .contact-image{
-  column-span: all;
+  grid-column: 1 / span all;
   max-height: 700px;
   overflow: hidden;
-  grid-row: 5 / span all;
+  grid-row: 5 / span 1;
 }
 
 .contact{
