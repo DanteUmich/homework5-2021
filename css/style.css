@@ -137,7 +137,7 @@ header{
   column-span: all;
   max-height: 700px;
   overflow: hidden;
-  grid-row-start: 3;
+  grid-row: 3 / span all;
 }
 
 .method{
@@ -149,7 +149,7 @@ header{
   column-span: all;
   max-height: 700px;
   overflow: hidden;
-  grid-row-start: 4;
+  grid-row: 4 / span all;
 }
 
 .clients{
@@ -161,7 +161,7 @@ header{
   column-span: all;
   max-height: 700px;
   overflow: hidden;
-  grid-row-start: 5;
+  grid-row: 5 / span all;
 }
 
 .contact{
