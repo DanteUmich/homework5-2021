@@ -113,8 +113,7 @@ nav a:hover{
     height: 400px; /* Parallax effect */
 
     /* YOUR CODE HERE; */
-    grid-column-start: 1;
-    grid-column-end:3;
+    column-span:all;
     grid-row-start: 1;
     background: url("images/header.jpg") no-repeat;
   }
