@@ -115,7 +115,7 @@ header{
    /* YOUR CODE HERE; */
   grid-column: 1 / all;
   grid-row-start: 1;
-  background: url('images/header.jpg');
+  background: url('../images/header.jpg');
   background-repeat: no-repeat;
 }
 
