@@ -113,8 +113,7 @@ header{
   height: 400px; /* Parallax effect */
 
    /* YOUR CODE HERE; */
-  grid-column-start: 1;
-  column-span:all;
+  grid-column: 1 / all;
   grid-row-start: 1;
   background: url('images/header.jpg');
   background-repeat: no-repeat;
