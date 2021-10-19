@@ -128,7 +128,7 @@ nav a:hover{
   max-height: 700px;
   overflow: hidden;
   grid-row: 2 / span 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
 }
 
 .about{
