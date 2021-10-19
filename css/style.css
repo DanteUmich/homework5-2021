@@ -141,6 +141,7 @@ nav a:hover{
   max-height: 700px;
   overflow: hidden;
   grid-row: 3 / span 1;
+  grid-column-end: 4;
 }
 
 .method{
@@ -153,6 +154,7 @@ nav a:hover{
   max-height: 700px;
   overflow: hidden;
   grid-row: 4 / span 1;
+  grid-column-end: 4;
 }
 
 .clients{
@@ -165,6 +167,7 @@ nav a:hover{
   max-height: 700px;
   overflow: hidden;
   grid-row: 5 / span 1;
+  grid-column-end: 4;
 }
 
 .contact{
